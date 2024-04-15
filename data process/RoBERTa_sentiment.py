@@ -33,7 +33,7 @@ def split_comment(text):
     return text_list
 
 def process_comment(text):
-    """Extract the sentence that meanions parking"""
+    """Extract the sentence that mentions parking"""
     text_list = split_comment(text)
     text_list = [text for text in text_list if any(word in text for word in word_lst)]
     filtered_text = ' '.join(map(str, text_list))
