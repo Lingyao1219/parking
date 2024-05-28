@@ -1,0 +1,7 @@
+﻿Model,Training,Testing
+Vader sentiment,,0.558
+RoBERTa sentiment,,0.62
+TF-IDF + RF,0.999,0.715
+TF-IDF + SGD,0.994,0.723
+TF-IDF + LR,0.991,0.733
+BERT,0.991,0.9

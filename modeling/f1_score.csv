@@ -1,0 +1,7 @@
+﻿Model,negative,neutral,positive,unrelated
+Vader sentiment,0.64,0.11,0.71,0
+RoBERTa sentiment,0.75,0.21,0.75,0
+TF-IDF + RF,0.73,0.1,0.79,0
+TF-IDF + SGD,0.74,0.13,0.81,0.11
+TF-IDF + LR,0.77,0.05,0.82,0.21
+BERT,0.92,0.61,0.93,0.67
