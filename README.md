@@ -38,6 +38,7 @@ We employ the Bidirectional Encoder Representations from Transformers (BERT) mod
 
 ## Getting Started
 
+Please request the processed dataset from the corresponding authors of this project before you run the code. 
 1. Clone the repository
 2. Install required dependencies:
    - Python 3.7+
@@ -54,7 +55,7 @@ We employ the Bidirectional Encoder Representations from Transformers (BERT) mod
 The original data used in this study comes from: 
 1. **Google Maps Reviews**: 
    - Source: "Google local review data" published by researchers from UCSD (https://datarepo.eng.ucsd.edu/mcauley_group/gdrive/googlelocal/). 
-   - Please remember to cite the original papers once you use their dataset.
+   - Please remember to cite the original two papers.
 2. **Processed Parking-related Reviews**:
    - The processed data is available upon request from the corresponding authors of this project.
 
