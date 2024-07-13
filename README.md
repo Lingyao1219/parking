@@ -12,10 +12,28 @@ We employ the Bidirectional Encoder Representations from Transformers (BERT) mod
 
 ## Key Components
 
-1. **Data Processing**: Scripts for filtering and preparing the dataset. 
-2. **Modeling**: BERT classifier implementation, RoBERTa sentiment classification, model performance evaluation, and text processing utilities.
+1. **Data Processing**: Scripts for filtering and preparing the dataset.
+   - `data_filtering.py`: Filters and cleans raw data from Google Maps reviews.
+
+2. **Modeling**: BERT classifier implementation, sentiment classification using various methods, model performance evaluation, and text processing utilities.
+   - `bert_classifier.ipynb`: Implements and trains the BERT model for sentiment classification.
+   - `sentiment_classifiers.ipynb`: Explores various sentiment classification techniques.
+   - `tfidf_classifiers.ipynb`: Implements TF-IDF based classifiers for comparison.
+   - `model_performance.ipynb`: Evaluates and compares performance of different models.
+   - `process_text.py`: Contains utility functions for text preprocessing.
+
 3. **Regression Analysis**: Feature building scripts, regression modeling, and results analysis.
+   - `Feature_build_CBSA.py`: Builds features at the CBSA level.
+   - `Feature_build_byPOI.py`: Constructs features at the POI level.
+   - `Feature_build_total.py`: Generates overall features for the entire dataset.
+   - `Model_Regression.R`: R script for running regression models.
+   - `Results_analysis.py`: Analyzes and interprets regression results with local socioeconomic factors.
+
 4. **Results and Analysis**: Text cleaning, POI analysis, and textual analysis.
+   - `clean_text.py`: Cleans and preprocesses text data for LSVA analysis.
+   - `poi_analysis.ipynb`: Analyzes patterns and trends across different Points of Interest.
+   - `textual_analysis.ipynb`: Performs in-depth analysis of textual content in reviews.
+   - `stop_words.py`: Defines and manages stop words for text processing.
 
 ## Getting Started
 
