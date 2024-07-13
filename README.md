@@ -46,3 +46,17 @@ We employ the Bidirectional Encoder Representations from Transformers (BERT) mod
 4. Execute modeling notebooks to train and evaluate the classifiers
 5. Perform regression analysis using the R script and Python analysis scripts
 6. Analyze results using the provided notebooks in the results folder
+
+
+## Data Availability
+
+The original data used in this study comes from: 
+1. **Google Maps Reviews**: 
+   - Source: "Google local review data" published by researchers from UCSD [1, 2]
+   - Available for download from the UCSD website (link to be provided)
+
+Please note that use of this data must comply with the original data providers' terms of service and any applicable licensing agreements.
+
+References:
+[1] Li, J., Shang, J., McAuley, J.: Uctopic: Unsupervised contrastive learning for phrase representations and topic mining. Annual Meeting of the Association for Computational Linguistics (ACL), 2022.
+[2] Yan, A., He, Z., Li, J., Zhang, T., McAuley, J.: Personalized showcases: Generating multimodal explanations for recommendations. The 46th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2023.
