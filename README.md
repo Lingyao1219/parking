@@ -41,7 +41,7 @@ We employ the Bidirectional Encoder Representations from Transformers (BERT) mod
 2. Install required dependencies:
    - Python 3.7+
    - R 4.0+
-   - Libraries: pandas, numpy, scikit-learn, transformers, nltk
+   - Python Libraries: pandas, numpy, nltk, torch, scikit-learn, transformers
 3. Run data processing scripts to prepare the dataset
 4. Execute modeling notebooks to train and evaluate the classifiers
 5. Perform regression analysis using the R script and Python analysis scripts
