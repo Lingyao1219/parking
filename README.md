@@ -8,7 +8,7 @@ This project analyzes parking perceptions across the United States using crowdso
 
 Due to increased reliance on private vehicles and growing travel demand, parking remains a longstanding urban challenge globally. This study introduces a cost-effective and widely accessible data source, crowdsourced online reviews, to investigate public perceptions of parking across the U.S. We examine 4,987,483 parking-related reviews for 1,129,460 points of interest (POIs) across 911 core-based statistical areas (CBSAs) sourced from Google Maps.
 
-We employ the Bidirectional Encoder Representations from Transformers (BERT) model to classify parking sentiment and conduct regression analyses to explore its relationships with socio-spatial factors. Our findings reveal significant variations in parking sentiment across POI types and CBSAs, with insights into the relationships between urban density, demographics, socioeconomic status, and parking experiences.
+We employ the Bidirectional Encoder Representations from Transformers (BERT) model to classify parking perceptions and conduct regression analyses to explore its relationships with socio-spatial factors. Our findings reveal significant variations in parking sentiment across POI types and CBSAs, with insights into the relationships between urban density, demographics, socioeconomic status, and parking experiences.
 
 
 ## Key Components
