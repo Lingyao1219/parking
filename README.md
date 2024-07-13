@@ -10,6 +10,36 @@ Due to increased reliance on private vehicles and growing travel demand, parking
 
 We employ the Bidirectional Encoder Representations from Transformers (BERT) model to classify parking sentiment and conduct regression analyses to explore its relationships with socio-spatial factors. Our findings reveal significant variations in parking sentiment across POI types and CBSAs, with insights into the relationships between urban density, demographics, socioeconomic status, and parking experiences.
 
+## Project Structure
+main/
+├── data_process/
+│   └── data_filtering.py
+├── modeling/
+│   ├── performance/
+│   ├── bert_classifier.ipynb
+│   ├── krippendorff.ipynb
+│   ├── model_performance.ipynb
+│   ├── process_text.py
+│   ├── samples.csv
+│   ├── samples_intercoder.csv
+│   ├── sentiment_classifiers.ipynb
+│   └── tfidf_classifiers.ipynb
+├── regression/
+│   ├── Feature_build_CBSA.py
+│   ├── Feature_build_byPOI.py
+│   ├── Feature_build_total.py
+│   ├── Model_Regression.R
+│   └── Results_analysis.py
+└── results/
+├── clean_text.py
+├── google_categories_mapping.csv
+├── places_summary.xlsx
+├── poi_analysis.ipynb
+├── stop_words.py
+├── textual_analysis.ipynb
+└── README.md
+
+
 ## Key Components
 
 1. **Data Processing**: Scripts for filtering and preparing the dataset.
