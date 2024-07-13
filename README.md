@@ -10,35 +10,6 @@ Due to increased reliance on private vehicles and growing travel demand, parking
 
 We employ the Bidirectional Encoder Representations from Transformers (BERT) model to classify parking sentiment and conduct regression analyses to explore its relationships with socio-spatial factors. Our findings reveal significant variations in parking sentiment across POI types and CBSAs, with insights into the relationships between urban density, demographics, socioeconomic status, and parking experiences.
 
-## Project Structure
-main/
-├── data_process/
-│   └── data_filtering.py
-├── modeling/
-│   ├── performance/
-│   ├── bert_classifier.ipynb
-│   ├── krippendorff.ipynb
-│   ├── model_performance.ipynb
-│   ├── process_text.py
-│   ├── samples.csv
-│   ├── samples_intercoder.csv
-│   ├── sentiment_classifiers.ipynb
-│   └── tfidf_classifiers.ipynb
-├── regression/
-│   ├── Feature_build_CBSA.py
-│   ├── Feature_build_byPOI.py
-│   ├── Feature_build_total.py
-│   ├── Model_Regression.R
-│   └── Results_analysis.py
-└── results/
-├── clean_text.py
-├── google_categories_mapping.csv
-├── places_summary.xlsx
-├── poi_analysis.ipynb
-├── stop_words.py
-├── textual_analysis.ipynb
-└── README.md
-
 
 ## Key Components
 
@@ -82,11 +53,19 @@ main/
 
 The original data used in this study comes from: 
 1. **Google Maps Reviews**: 
-   - Source: "Google local review data" published by researchers from UCSD [1, 2]
-   - Available for download from the UCSD website (link to be provided)
+   - Source: "Google local review data" published by researchers from UCSD (https://datarepo.eng.ucsd.edu/mcauley_group/gdrive/googlelocal/). 
+   - Please remember to cite the original papers once you use their dataset.
+2. **Processed Parking-related Reviews**:
+   - The processed data is available upon request from the corresponding authors of this project.
 
 Please note that use of this data must comply with the original data providers' terms of service and any applicable licensing agreements.
 
-References:
-[1] Li, J., Shang, J., McAuley, J.: Uctopic: Unsupervised contrastive learning for phrase representations and topic mining. Annual Meeting of the Association for Computational Linguistics (ACL), 2022.
-[2] Yan, A., He, Z., Li, J., Zhang, T., McAuley, J.: Personalized showcases: Generating multimodal explanations for recommendations. The 46th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2023.
+## Reference
+```
+@article{li2024crowdsourced,
+  title={Crowdsourced reviews reveal substantial disparities in public perceptions of parking},
+  author={Li, Lingyao and Hu, Songhua and Dinh, Ly and Hemphill, Libby},
+  journal={arXiv preprint arXiv:2407.05104},
+  year={2024}
+}
+```
