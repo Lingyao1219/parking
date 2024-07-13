@@ -13,11 +13,11 @@ We employ the Bidirectional Encoder Representations from Transformers (BERT) mod
 ## Key Components
 
 1. **Data Processing**: Scripts for filtering and preparing the dataset.
-   - `data_filtering.py`: Filters and cleans raw data from Google Maps reviews.
+   - `data_filtering.py`: Filters and cleans raw data from Google Maps reviews published by UCSD (https://datarepo.eng.ucsd.edu/mcauley_group/gdrive/googlelocal/).
 
 2. **Modeling**: BERT classifier implementation, sentiment classification using various methods, model performance evaluation, and text processing utilities.
-   - `bert_classifier.ipynb`: Implements and trains the BERT model for sentiment classification.
-   - `sentiment_classifiers.ipynb`: Explores various sentiment classification techniques.
+   - `bert_classifier.ipynb`: Implements and trains the BERT model for perception classification.
+   - `sentiment_classifiers.ipynb`: Explores various sentiment classification techniques, including RoBERTa-based sentiment and Vader sentiment.
    - `tfidf_classifiers.ipynb`: Implements TF-IDF based classifiers for comparison.
    - `model_performance.ipynb`: Evaluates and compares performance of different models.
    - `process_text.py`: Contains utility functions for text preprocessing.
@@ -30,15 +30,19 @@ We employ the Bidirectional Encoder Representations from Transformers (BERT) mod
    - `Results_analysis.py`: Analyzes and interprets regression results with local socioeconomic factors.
 
 4. **Results and Analysis**: Text cleaning, POI analysis, and textual analysis.
-   - `clean_text.py`: Cleans and preprocesses text data for LSVA analysis.
-   - `poi_analysis.ipynb`: Analyzes patterns and trends across different Points of Interest.
+   - `clean_text.py`: Cleans and preprocesses text data for LSVA textual analysis.
+   - `poi_analysis.ipynb`: Analyzes patterns and trends across different POI types.
    - `textual_analysis.ipynb`: Performs in-depth analysis of textual content in reviews.
-   - `stop_words.py`: Defines and manages stop words for text processing.
+   - `stop_words.py`: Defines and manages stop words for LSVA textual analysis.
 
 ## Getting Started
 
 1. Clone the repository
-2. Run data processing scripts to prepare the dataset
-3. Execute modeling notebooks to train and evaluate the classifiers
-4. Perform regression analysis using the R script and Python analysis scripts
-5. Analyze results using the provided notebooks in the results folder
+2. Install required dependencies:
+   - Python 3.7+
+   - R 4.0+
+   - Libraries: pandas, numpy, scikit-learn, transformers, nltk
+3. Run data processing scripts to prepare the dataset
+4. Execute modeling notebooks to train and evaluate the classifiers
+5. Perform regression analysis using the R script and Python analysis scripts
+6. Analyze results using the provided notebooks in the results folder
