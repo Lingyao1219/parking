@@ -61,12 +61,3 @@ The original data used in this study comes from:
 
 Please note that use of this data must comply with the original data providers' terms of service and any applicable licensing agreements.
 
-## Reference
-```
-@article{li2024crowdsourced,
-  title={Crowdsourced reviews reveal substantial disparities in public perceptions of parking},
-  author={Li, Lingyao and Hu, Songhua and Dinh, Ly and Hemphill, Libby},
-  journal={arXiv preprint arXiv:2407.05104},
-  year={2024}
-}
-```
